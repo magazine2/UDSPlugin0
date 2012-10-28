@@ -172,4 +172,5 @@ target/
 ## Netbeans
 #############
 
+nbproject/
 nbactions.xml
