@@ -167,3 +167,9 @@ pip-log.txt
 #############
 
 target/
+
+#############
+## Netbeans
+#############
+
+nbactions.xml
