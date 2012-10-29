@@ -1,8 +1,8 @@
 package com.undeadscythes.udsplugin.commands;
 
-import com.undeadscythes.udsplugin.UDSPlugin;
 import com.undeadscythes.udsplugin.Color;
 import com.undeadscythes.udsplugin.UDSMessage;
+import com.undeadscythes.udsplugin.UDSPlugin;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
