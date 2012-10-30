@@ -1,6 +1,7 @@
 package com.undeadscythes.udsplugin;
 
-import java.util.Locale;
+import java.util.*;
+import org.bukkit.*;
 
 public class UDSString {
     private transient String string;
@@ -16,7 +17,7 @@ public class UDSString {
                                   "pussy", "twat", "faggot", "cock", "wiener", "dick", "chode", "anal", "ass hole"};
         for(int i = 0; i < censors.length; i++) {
             if(string.toLowerCase(Locale.ENGLISH).contains(censors[i])) {
-                string = string.replaceAll("(?i)" + censors[i], "@!&#");
+                string = string.replaceAll("(?i)" + censors[i], ChatColor.MAGIC + censors[i] + ChatColor.WHITE);
                 censored = true;
             }
         }
