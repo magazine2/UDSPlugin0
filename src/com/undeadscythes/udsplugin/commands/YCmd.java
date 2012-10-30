@@ -44,7 +44,7 @@ public class YCmd implements CommandExecutor {
         return true;
     }
 
-    private void tpRequest(String teleporterName, String targetName) {
+    private void tpRequest(String targetName, String teleporterName) {
         Player target = Bukkit.getPlayerExact(targetName);
         Player teleporter = Bukkit.getPlayerExact(teleporterName);
         if(target != null) {
