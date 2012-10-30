@@ -10,7 +10,7 @@ import java.util.Map;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
-import org.dynmap.DynmapAPI;
+//import org.dynmap.DynmapAPI;
 
 public final class ChatUtils {
     public static void sendClanMessage(final Player player, final String message) {
@@ -46,9 +46,9 @@ public final class ChatUtils {
         for(int i = 0; i < players.length; i++) {
             if(!UDSPlugin.getPlayers().get(players[i].getName()).getIgnores().contains(playerName)) {
                 players[i].sendMessage(message);
-                Plugin dynmap = Bukkit.getPluginManager().getPlugin("dynmap");
-                DynmapAPI api = (DynmapAPI)dynmap;
-                api.postPlayerMessageToWeb("", "", message);
+                //Plugin dynmap = Bukkit.getPluginManager().getPlugin("dynmap");
+                //DynmapAPI api = (DynmapAPI)dynmap;
+                //api.postPlayerMessageToWeb("", "", message);
             }
         }
     }

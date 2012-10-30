@@ -28,6 +28,7 @@ public class AsyncPlayerChat implements Listener {
 
     @EventHandler
     public final void onAsyncPlayerChat(final AsyncPlayerChatEvent event) {
+        event.setCancelled(true);
         final Player player = event.getPlayer();
         final UDSPlayer serverPlayer = UDSPlugin.getPlayers().get(player.getName());
         serverPlayer.newChatTime(System.currentTimeMillis());
@@ -100,6 +101,5 @@ public class AsyncPlayerChat implements Listener {
                 }
             }
         }
-        event.setCancelled(true);
     }
 }
