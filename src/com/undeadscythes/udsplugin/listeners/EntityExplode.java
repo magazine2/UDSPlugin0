@@ -1,21 +1,12 @@
 package com.undeadscythes.udsplugin.listeners;
 
-import com.undeadscythes.udsplugin.UDSConfig;
-import com.undeadscythes.udsplugin.UDSPlayer;
-import com.undeadscythes.udsplugin.UDSPlugin;
-import com.undeadscythes.udsplugin.Color;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import org.bukkit.GameMode;
-import org.bukkit.Material;
-import org.bukkit.block.Block;
+import com.undeadscythes.udsplugin.*;
+import java.util.*;
+import org.bukkit.*;
+import org.bukkit.block.*;
 import org.bukkit.entity.*;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.event.entity.EntityDamageEvent;
-import org.bukkit.event.entity.EntityExplodeEvent;
+import org.bukkit.event.*;
+import org.bukkit.event.entity.*;
 
 public class EntityExplode implements Listener {
     private final transient UDSPlugin plugin;

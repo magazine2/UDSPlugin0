@@ -1,7 +1,7 @@
 package com.undeadscythes.udsplugin.commands;
 
-import com.undeadscythes.udsplugin.UDSPlugin;
 import com.undeadscythes.udsplugin.UDSMessage;
+import com.undeadscythes.udsplugin.UDSPlugin;
 import com.undeadscythes.udsplugin.utilities.PlayerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
